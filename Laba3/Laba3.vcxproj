@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Laba3.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="BankSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankSystem.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="System.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
